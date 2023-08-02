@@ -1,7 +1,7 @@
 
   void main() {
   // Declare constant variables "a" and "b"
-  const int a = 10;
+  const int a = 7;
   const int b = 3;
 
   // Perform arithmetic operations
