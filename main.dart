@@ -23,13 +23,12 @@ class MyApp extends StatelessWidget{
       backgroundColor: Colors.green,
       title:Center(
         child:Text('Home'),),
-       titleTextStyle: TextStyle(fontSize:40,fontWeight:FontWeight.w700 ),
+       titleTextStyle:TextStyle(fontWeight:FontWeight.bold,fontSize: 30),
        leading: Icon(
          Icons.add_business_rounded,
-         size: 70,
        ),
        actions: [
-         IconButton(onPressed: (){}, icon: Icon(Icons.search),iconSize: 70,),
+         IconButton(onPressed: (){}, icon: Icon(Icons.search)),
 
        ],
       ),
